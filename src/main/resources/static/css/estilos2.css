@@ -1,0 +1,80 @@
+#barraLateralD {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 88%;
+    width: 12%;
+    background-color: #496D8D;
+    color: black;
+}
+
+#barraLateralI {
+    position: absolute;
+    top: 12%;
+    right: 0;
+    height: 88%;
+    width: 12%;
+    background-color: #496D8D;
+    color: black;
+}
+
+#relleno{
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    height: 88%;
+    width: 2%;
+    background-color: #24A1DF;
+    color: black;
+}
+#relleno2{
+    position: absolute;
+    top: 12%;
+    right: 12%;
+    height: 88%;
+    width: 2%;
+    background-color: #24A1DF;
+    color: black;
+}
+
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 14%;
+    height: 88%;
+    width: 72%;
+    background-color: #24A1DF;
+    color: black;
+    overflow: auto;
+}
+
+#piePagina {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    height: 7%;
+    width: 100%;
+    background-color: #87F29B;
+    color: black;
+    text-align: center
+}
+
+#encabezadTabla {
+    font-size: 20px;
+    background-color: blue;
+    color: yellow;
+}
+
+#tablaResumen tr {
+    font-size: 25px;
+}
+
+#tablaResumen tr:nth-child(odd) {
+    background-color: coral;
+    color: white;
+}
+
+#tablaResumen tr:nth-child(even){
+    background-color: white;
+    color: #87F29B
+}
